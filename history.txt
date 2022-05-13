@@ -1,0 +1,500 @@
+   62  ls
+   63  cd programming/learning/languages/python/udacity-data-science
+   64  mkdir new-git-project
+   65  cd new-git-project
+   66  git init
+   67  git clone https://github.com/udacity/course-git-blog-project
+   68  cd blog-project
+   69  cd course-git-blog-project/
+   70  ls
+   71  git status
+   72  cd ..
+   73  git status
+   74  git log
+   75  cd ..
+   76  git log
+   77  ls
+   78  cd new-git-project
+   79  ls
+   80  cd course-git-blog-project
+   81  git status
+   82  git status
+   83  git log
+   84  git log --oneline
+   85  git log --stat
+   86  git log -p
+   87  clear
+   88  git log -p
+   89  clear
+   90  git log -p --stat
+   91  git log --stat
+   92  git log -p
+   93  clear
+   94  git show 8d3ea36 -w
+   95  clear
+   96  git show "Convert social links from text to images" -w --stat
+   97  git show --oneline --stat
+   98  git show --online
+   99  git show --oneline
+  100  git log --online
+  101  git log --oneline
+  102  git show 8aa6668 -w --stat
+  103  git show fdf5493 -w -p
+  104  q
+  105  clear
+  106  cd ..
+  107  git init
+  108  git status
+  109  git status
+  110  git add index.html
+  111  git status
+  112  git add .
+  113  git rm --cached course-git-blog-project
+  114  git rm --cached course-git-blog-project -f
+  115  git status
+  116  git commit
+  117  code --version
+  118  git config --global core.editor "code --wait"
+  119  git commit
+  120  git config --global core.editor 'code --wait'
+  121  git commit
+  122  git status
+  123  git status
+  124  git add index.html
+  125  git status
+  126  git commit -m 'Add header to blog'
+  127  git diff
+  128  touch project.docx
+  129  git status
+  130  git status
+  131  git add .gitignore
+  132  git status
+  133  git restore --staged .gitignore
+  134  git status
+  135  git log oneline
+  136  git log --oneline
+  137  git add .gitignore
+  138  git status
+  139  git commit
+  140  git commit -m 'Add .gitignore file'
+  141  git log --online
+  142  git log --oneline
+  143  git tag -a v1.0
+  144  git tag
+  145  git log
+  146  git tag -d v1.0
+  147  git tag -a v1.0 a87984
+  148  git tag -a beta
+  149  git branch sidebar
+  150  git checkout sidebar
+  151  git log --oneline
+  152  git status
+  153  git checkout master
+  154  git status
+  155  git add index.html 
+  156  git commit -m 'Add footer'
+  157  git branch -d sidebar
+  158  git status
+  159  git status
+  160  git add .gitignore
+  161  git commit -m 'Added course-git-blog-project to ignore list'
+  162  git status
+  163  git add css
+  164  git status
+  165  git commit -m 'Add page color'
+  166  git log --oneline
+  167  git branch sidebar 01922e6
+  168  git checkout sidebar
+  169  git log --oneline
+  170  git show --oneline
+  171  git log --oneline
+  172  git status
+  173  git add index.html
+  174  git commit -m 'Create a sidebar'
+  175  git checkout master
+  176  git show --diff
+  177  git log -p
+  178  git diff
+  179  git add index.html
+  180  git commit -m 'Change heading to adventures'
+  181  git checkout sidebar
+  182  git add index.html
+  183  git commit -m 'Add something personal about myself'
+  184  git checkout master
+  185  git checkout -b footer master
+  186  git log --online
+  187  git log --oneline
+  188  git add index.html
+  189  git commit -m 'Add new expanded footer'
+  190  git log --oneline --graph --all
+  191  cd D\programming\learning\languages\python\udacity-data-science\new-git-project
+  192  cd ..
+  193  cd ..
+  194  cd D\programming\learning\languages\python\udacity-data-science\new-git-project
+  195  cd .. 
+  196  cd d
+  197  cd D\programming\learning\languages\python\udacity-data-science\new-git-project
+  198  cd \programming\learning\languages\python\udacity-data-science\new-git-project
+  199  cd programming\learning\languages\python\udacity-data-science\new-git-project
+  200  cd programming/learning/languages/python/udacity-data-science/new-git-project
+  201  git checkout master
+  202  git status
+  203  git merge footer
+  204  git log --oneline
+  205  git merge sidebar
+  206  git add index.html
+  207  git commit -m 'change heading to Arsenal'
+  208  git log --oneline
+  209  git log --oneline --graph -all
+  210  git log --oneline --graph --all
+  211  git branch conflict d851e69
+  212  git checkout conflict
+  213  git log --oneline
+  214  git add index.html
+  215  git commit -m 'change heading to America'
+  216  git checkout master
+  217  git merge conflict
+  218  git status
+  219  git add index.html
+  220  git commit -m 'sorted merge conflict'
+  221  git diff
+  222  git branch backup
+  223  cd ..
+  224  cd my-travel-plans
+  225  git init
+  226  touch README.md index.html app.css
+  227  ls
+  228  git status
+  229  git add README.MD app.css index.html
+  230  git status
+  231  git add README.md
+  232  git status
+  233  git commit -m 'Initial commit'
+  234  git status
+  235  git remote add origin https://github.com/ThabaniM/my-travel-plans.git
+  236  git branch -M main
+  237  git push -u origin main
+  238  adb shell
+  239  cd .. 
+  240  cd ..
+  241  cd /d/android
+  242  adb shell
+  243  cd .. 
+  244  cd "This PC"\Vodacom_Smart_Kicka_3
+  245  cd "This PC"/Vodacom_Smart_Kicka_3
+  246  cd ..
+  247  cd "This PC"/Vodacom_Smart_Kicka_3
+  248  adb shell
+  249  adb shell -
+  250  cd d:
+  251  adb shell
+  252  adb shell
+  253  /software/ADB platform-tools_r31.0.3-windows
+  254  cd /software/ADB platform-tools_r31.0.3-windows
+  255  cd software/ADB platform-tools_r31.0.3-windows
+  256  ls
+  257  cd software
+  258  cd "ADB platform-tools_r31.0.3-windows"
+  259  adb shell
+  260  cd platform-tools
+  261  adb shell
+  262  adb
+  263  adb shell
+  264  adb shell
+  265  adb shell
+  266  adb shell
+  267  adb shell
+  268  d:/software/ADB platform-tools_r31.0.3-windows
+  269  cd /d:/software/ADB platform-tools_r31.0.3-windows
+  270  cd /d:/software/"ADB platform-tools_r31.0.3-windows"
+  271  cd ..
+  272  cd ..
+  273  cd /d:/software/"ADB platform-tools_r31.0.3-windows"
+  274  cd ..
+  275  cd /d:/software/"ADB platform-tools_r31.0.3-windows"
+  276  cd d:/software/"ADB platform-tools_r31.0.3-windows"
+  277  adb devices
+  278  cd .. 
+  279  cd ..
+  280  cd D:\software\ADB platform-tools_r31.0.3-windows\platform-tools
+  281  cd D\software\ADB platform-tools_r31.0.3-windows\platform-tools
+  282  cd D/software/ADB platform-tools_r31.0.3-windows/platform-tools
+  283  cd d
+  284  cd ..
+  285  cd D/software/ADB platform-tools_r31.0.3-windows/platform-tools
+  286  d
+  287  cd d:
+  288  cd software/ADB platform-tools_r31.0.3-windows/platform-tools
+  289  cd /software/ADB platform-tools_r31.0.3-windows/platform-tools
+  290  cd software
+  291  cd "ADB platform-tools_r31.0.3-windows"/platform-tools
+  292  adb devices
+  293  adb devices
+  294  adb devices
+  295  adb devices
+  296  adb
+  297  adb shell
+  298  adb devices
+  299  adb devices
+  300  choco
+  301  choco
+  302  brew
+  303  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  304  Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+  305  choco
+  306  choco
+  307  cd coreinfo
+  308  cd ..
+  309  cd ..
+  310  cd coreinfo
+  311  coreinfo
+  312  cd ..
+  313  ls -al
+  314  cd windows
+  315  ls -al
+  316  cd ..
+  317  ls
+  318  cd documents
+  319  cd 'Documents and Settings'@
+  320  cd 'Documents and Settings'
+  321  cd coreinfo
+  322  ls
+  323  chmod
+  324  chmod --help
+  325  cd ..
+  326  cd coreinfo
+  327  cd ..
+  328  cd chmod 775 'coreinfo'
+  329  chmod 775 'coreinfo'
+  330  cd coreinfo
+  331  coreinfo
+  332  cd ..
+  333  ls -al
+  334  chmod 775 coreinfo
+  335  chmod 777 coreinfo
+  336  ls -al
+  337  clear
+  338  ruby -v
+  339  gcc -v
+  340  make -v
+  341  cd .. 
+  342  cd ..
+  343  d:
+  344  d
+  345  cd ..
+  346  d
+  347  d:
+  348  d:
+  349  cd d
+  350  cd programming
+  351  make -v
+  352  gcc -v
+  353  cd downloads
+  354  cd llvm-mingw-20211002-msvcrt-i686
+  355  make -v
+  356  gcc -v
+  357  gcc -v
+  358  make -v
+  359  cd ../../..
+  360  cd /d/programming/downloads/llvm-mingw-20211002-msvcrt-i686
+  361  gcc -v
+  362  make -v
+  363  gcc -v
+  364  gcc -v
+  365  gcc -v
+  366  cd llvm-mingw-20211002-msvcrt-i686\
+  367  cd llvm-mingw-20211002-msvcrt-i686
+  368  cd bin
+  369  gcc -v
+  370  make v
+  371  make -v
+  372  gcc -v
+  373  npm -version
+  374  node -v
+  375  node -version
+  376  node -version
+  377  node -v
+  378  cd ../../..
+  379  cd d
+  380  node -v
+  381  npm -v
+  382  npm --version
+  383  npm --version
+  384  node -v
+  385  cd ../../..
+  386  cd d
+  387  cd Hugo
+  388  ls
+  389  cd medical-practice/themes
+  390  git clone 
+  391  git clone 
+  392  git clone https://github.com/giraffeacademy/ga-hugo-theme.git ga-hugo-theme
+  393  ls
+  394  cd ..
+  395  hugo server
+  396  hugo new a.md
+  397  hugo new dir1/b.md
+  398  hugo server -D
+  399  hugo server -D
+  400  cd layouts/_defaults
+  401  touch list.html single.html
+  402  hugo server
+  403  cd ..
+  404  cd ..
+  405  hugo server
+  406  hugo server
+  407  hugo server
+  408  cd ../../..
+  409  cd d
+  410  cd programming/projects
+  411  mkdir html-css
+  412  cd html-css
+  413  mkdir vrgood
+  414  cd vrgood
+  415  mkdir css js img sass
+  416  touch index.html
+  417  cd sass
+  418  mkdir abstracts base components layout pages
+  419  live-server
+  420  npm install live-server
+  421  npm install live-server -g
+  422  npm audit fix --force
+  423  npm i --package-lock-only
+  424  touch style.scss
+  425  cd abstract
+  426  cd abstracts
+  427  touch _variables.scss _functions.scss _mixins.scss
+  428  mkdir components
+  429  ls
+  430  mkdir layout
+  431  cd ,,
+  432  cd ..
+  433  mkdir pages
+  434  cd pages
+  435  touch _home.scss
+  436  cd ..
+  437  cd layouts
+  438  cd layout
+  439  touch _header.scss
+  440  cd ../..
+  441  live-server
+  442  node -v
+  443  npm -v
+  444  live-server -v
+  445  python -v
+  446  python --version
+  447  cd ..
+  448  cd ..
+  449  cd "Program Files"
+  450  rm "Blue Coat K9 Web Protection"
+  451  cd "Blue Coat K9 Web Protection"
+  452  rm k9filter.exe
+  453  python -v
+  454  cd ..
+  455  cd ..
+  456  d:
+  457  cd ..
+  458  d
+  459  cd D:\programming\projects\html-css\vrgood
+  460  d:
+  461  cd ..
+  462  d:
+  463  cd 
+  464  d:
+  465  cd d
+  466  cd D:\programming\projects\html-css\vrgood
+  467  D\programming\projects\html-css\vrgood
+  468  cd d
+  469  cd ..
+  470  d:
+  471  cd d
+  472  cd:
+  473  cd ..
+  474  d
+  475  cd /d
+  476  cd programming/projects/html-css/vrgood
+  477  git init
+  478  git status
+  479  git add *
+  480  git status
+  481  git commit 'no footer'
+  482  git commit
+  483  git status
+  484  git push origin master
+  485  git push main master
+  486  git remote add origin https://github.com/ThabaniM/vrgood-gh.git
+  487  git branch -M main
+  488  git push -u origin main
+  489  live-server
+  490  cd D/programming/projects/html-css/vrgood
+  491  cd /D/programming/projects/html-css/vrgood
+  492  git add *
+  493  git status
+  494  git commit -m 'rwd esp media queries bar nav section'
+  495  git push -u origin main
+  496  vagrant
+  497  vagrant -v
+  498  virtualbox -v
+  499  git -v
+  500  git --version
+  501  d;
+  502  d;
+  503  d:
+  504  cd d
+  505  d:
+  506  cd /d
+  507  cd /d/programming/learning
+  508  mkdir git-basic-exercises
+  509  ls -a
+  510  cd git-basic-exercises
+  511  ls -a
+  512  git status
+  513  git init
+  514  git status
+  515  ls -a
+  516  touch README.md
+  517  ls -a
+  518  git status
+  519  git log
+  520  git add .
+  521  git status
+  522  git rm --cached README.md
+  523  git status
+  524  git add .
+  525  git status
+  526  git commit -m "initial commit"
+  527  git log
+  528  q
+  529  nano README.md
+  530  cat README.md
+  531  git status
+  532  git add .
+  533  git status
+  534  git commit -m 'second commit'
+  535  nano README.md
+  536  cat README.md
+  537  git add .
+  538  git commit -m 'third commit'
+  539  git log
+  540  git checkout 5b5ab568987c25460323564c406a8cc7344a2240
+  541  cat README.md
+  542  git checkout main
+  543  git checkout master
+  544  cat README.md
+  545  git branch
+  546  git branch milkshake-flavours
+  547  git branch
+  548  git checkout milkshake-flavours
+  549  git branch
+  550  nano milkshakes.md
+  551  cat milkshakes.md
+  552  git status
+  553  git add .
+  554  git commit -m 'added initial flavours'
+  555  git log
+  556  git checkout master
+  557  git branch
+  558  git branch history
+  559  git branch 
+  560  git log
+  561  history > history.txt
